@@ -6,10 +6,11 @@ homepage: https://github.com/blockforest/threejs-dart-facade
 environment:
   sdk: '>=2.0.0-dev.55.0 <3.0.0'
 dependencies:
-  func: ^0.1.0
+  func:
+    git: https://github.com/hesslink111/func
   js: ^0.6.0
 dev_dependencies:
   #-------- Dart 2.0.0-dev --------
-  build_runner: ^0.8.9
-  build_test: ^0.10.2
-  build_web_compilers: ^0.4.0+3
+  build_runner: ^1.1.2
+  build_test: ^0.10.6
+  build_web_compilers: ^1.0.0
